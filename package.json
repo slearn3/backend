@@ -1,0 +1,32 @@
+
+{
+  "name": "bible-api",
+  "version": "1.0.0",
+  "description": "Bible API for Telugu-English parallel reading",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node scripts/migrate.js",
+    "import-xml": "node scripts/import_xml_bible.js",
+    "import-cross-refs": "node scripts/import_cross_references.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "canvas": "^2.11.2",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "node-fetch": "^2.7.0",
+    "sharp": "^0.32.6",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
